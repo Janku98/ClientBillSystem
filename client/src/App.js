@@ -44,7 +44,7 @@ function App() {
       ClientId: client.ClientId,
       name: client.name,
       adress: client.adress,
-      dni: client.adress,
+      dni: client.dni,
       iva: client.iva
     };
     const sendPost = async (post) =>{
